@@ -1,0 +1,169 @@
+.detail-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.btn-back {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+.btn-back:hover {
+  background: #545b62;
+}
+
+.app-detail {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.app-detail-header {
+  text-align: center;
+  padding: 24px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.app-detail-header img {
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.app-detail-header h1 {
+  margin: 0 0 8px 0;
+  font-size: 32px;
+}
+
+.creator {
+  color: #666;
+  margin: 0;
+}
+
+.app-detail-content {
+  padding: 24px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.app-detail-content p {
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.app-link {
+  display: inline-block;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.app-link:hover {
+  text-decoration: underline;
+}
+
+.app-actions {
+  padding: 16px 24px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.btn-like {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-like:hover {
+  background: #218838;
+}
+
+.comments-section {
+  padding: 24px;
+}
+
+.comments-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.comment-form input,
+.comment-form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.comment-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.btn-submit {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.btn-submit:hover {
+  background: #0056b3;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.comment {
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.comment-date {
+  color: #999;
+  font-size: 14px;
+}
+
+.comment p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #666;
+}
